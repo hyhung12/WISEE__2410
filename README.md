@@ -1,10 +1,12 @@
 # WISEE__2410
 
-- IP66, ISO 10816
+- IP66, ISO 10816, two 3.6 batteries
 - Device EUI, AppKey, AppEUI
 - Class A (battery power, downlink avaialable after TX)
 - 8 features each axis -> 24 features
-
+- ISO 10816-3: mechanical vibraion on non-roating part
+- ISO 10816: freqency (1kHz), vibration velocity RMS, evaluation zone, able to connect to cloud
+- Raw data (g value) collected in spatial domain -> converted to vibration/accleration amplitude in freq domain with FFT -> abnomaly detection
 
 
 # WISEE__4610
